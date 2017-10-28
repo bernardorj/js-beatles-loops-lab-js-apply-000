@@ -7,6 +7,6 @@ function theBeatlesPlay(musicians, instruments){
     } else {
       array = [...array, [musicians[i] + " plays " + instruments[i]]];
     }
-    return array;
   }
+    return array;
 }
