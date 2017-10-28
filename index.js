@@ -5,7 +5,7 @@ function theBeatlesPlay(musicians, instruments){
     if (i===0){
       array = [musicians[i] + " plays " + instruments[i]];
     } else {
-      array = [...array, musicians[i] + " plays " + instruments[i]];
+      array = [...array, [musicians[i] + " plays " + instruments[i]]];
     }
     return array;
   }
